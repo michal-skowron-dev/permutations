@@ -1,4 +1,4 @@
-let input = "ABCB";
+let input = "ABCD";
 solve();
 
 function solve()
@@ -108,7 +108,7 @@ function nPermutation(permutationList)
         }
     }
 
-    console.log("\n" + "Combinations (no repeats):" + list.length);
+    console.log("\n" + "Combinations (no repeats): " + list.length);
     return list;
 }
 
